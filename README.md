@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Vaswata/product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://product-preview-card-component-cc902f.netlify.app/)
+- Solution URL: [Solution on my Github Repository](https://github.com/Vaswata/product-preview-card-component)
+- Live Site URL: [Netlify Site](https://product-preview-card-component-cc902f.netlify.app/)
 
 ## My process
 
