@@ -1,0 +1,150 @@
+body {
+    /* font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif; */
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 125%;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 5px 0px #DCD7E0;
+}
+
+.image>img,
+.text-outside {
+    display: flex;
+    width: 20rem;
+    background-color: white;
+}
+
+.image>img {
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.text-outside {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.text-inside {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.part-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.part-2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.part-3 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.part-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.part-4>.part-4-1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.part-4>.part-4-2 {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+    margin-left: 0.75rem;
+}
+
+.part-5 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-color: white;
+    height: 2.8rem;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.part-5:hover {
+    background-color: hsl(212, 21%, 14%);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.part-5>img {
+    margin-right: 0.5rem;
+}
+
+.attribution {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
+}
+
+@media(max-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    #product-image {
+        content: url("images/image-product-mobile.jpg");
+    }
+
+    .image>img {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .text-outside {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    .text-inside {
+        padding: 1.5rem;
+    }
+
+    .part-3 {
+        margin: 0.6rem 0 0.6rem 0;
+    }
+
+    .part-4 {
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .part-5 {
+        margin: 0;
+    }
+
+    .attribution {
+        width: 20rem;
+        margin-top: 2rem;
+    }
+}
