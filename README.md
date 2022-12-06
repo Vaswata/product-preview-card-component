@@ -53,10 +53,24 @@ By making this project I have learnt how to change images when the screen size c
 <picture class="image">
   <img id="product-image" src="/images/image-product-desktop.jpg" alt="Product-Image">
 </picture>
+
 ```
 ```css
 #product-image {
   content: url("images/image-product-mobile.jpg");
+}
+
+```html
+<button type="button" class="part-5">
+  <img src="/images/icon-cart.svg" alt="Icon-Cart"> Add to Cart
+</button>
+```
+
+```css
+.part-5:hover {
+  background-color: hsl(212, 21%, 14%);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
 }
 ```
 
