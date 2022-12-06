@@ -59,6 +59,7 @@ By making this project I have learnt how to change images when the screen size c
 #product-image {
   content: url("images/image-product-mobile.jpg");
 }
+```
 
 ```html
 <button type="button" class="part-5">
