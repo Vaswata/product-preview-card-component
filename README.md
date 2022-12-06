@@ -56,8 +56,10 @@ By making this project I have learnt how to change images when the screen size c
 
 ```
 ```css
-#product-image {
-  content: url("images/image-product-mobile.jpg");
+@media(max-width: 375px) {
+  #product-image {
+    content: url("images/image-product-mobile.jpg");
+  }
 }
 ```
 
